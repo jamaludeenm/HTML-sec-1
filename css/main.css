@@ -1,0 +1,118 @@
+.container{
+    max-width: 2020px;
+    height: auto;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+.portfolio{
+	padding-bottom:50px;
+}
+.port-head{
+	margin-top:20px;
+}
+.port-head h2{
+	display:flex;
+	justify-content:center;
+	font-family: fantasy;
+	padding-top:20px;
+	padding-bottom:20px;
+	font-size:18px;
+	font-weight:200;
+	letter-spacing:1px;
+}
+.port-head p{
+	display:flex;
+	text-align:center;
+	font-size:11px;
+	font-family: system-ui;
+	line-height: 1.5;
+	padding-bottom:20px;
+}
+.but{
+	display:flex;
+	justify-content:center;
+	padding-bottom:20px;
+}
+.but button{
+	margin-right:8px;
+	color:black;
+	border:none;
+	background-color:white;
+	text-transform:uppercase;
+	font-family: mat;
+}
+.special a{
+	color:blue;
+}
+.flex-port{
+	display:flex;
+	flex-wrap:wrap;
+
+}
+.flex-port div {
+	width: 30%;
+	  width: 33.33%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+}
+.flex-port div img {
+	width:100%
+}
+
+ .flex-owner{
+   position: relative;
+   display: flex;
+   justify-content:center;
+   height: 300px;
+   background-image: url(../images/cta-bg.jpg);
+   width: 100%;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center 0;
+  
+}
+.flex-owner:after{
+	content: "";
+	position: absolute;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   background-color:  rgb(5 43 25 / 73%);
+  
+}
+.foot{
+	position: relative;
+   z-index: 1;
+   margin-top:50px;
+
+  
+}
+.foot h2{
+	padding-top:5px;
+	padding-bottom:10px;
+	color:white;
+	text-align:center;
+	font-size;12px;
+}
+.foot h3{
+	padding-bottom:10px;
+	color:white;
+	text-align:center;
+	font-size:12px;
+}
+.foot img{
+	width:70px;
+	height:70px;
+	justify-content:center;
+	margin-left:235px;
+	border-radius:43px;
+	border:solid 3px #161641a3;
+}
+.foot p{
+	text-align:center;
+	color:white;
+}
+	
